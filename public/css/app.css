@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+#topRow {
+  margin-bottom:0px;
+}
+
+#top-navigation-bar-main.fixed-menu-viewport {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+#topUserLblName {
+    width: 100%;
+    padding-left: 50px;
+}
+
+#topLogo {
+  margin-top:10px;
+}
+
+#topUserCardName, #topUserCardId {
+  padding:2px;
+}
+
+.collapsible-body {
+    padding: 0px;
+}
+.collapsible-body .collection .collection-item span.badge {
+    margin-top:inherit;
+}
+
+#frmLogin {
+  margin-top: 80px;
+}
+
+
+.transColor {
+  background: #5bcefa !important;
+  background: -webkit-linear-gradient(#5bcefa, #f5a9b8) !important;
+  background: -o-linear-gradient(#5bcefa, #f5a9b8) !important;
+  background: -moz-linear-gradient(#5bcefa, #f5a9b8) !important;
+  background: linear-gradient(#5bcefa, #f5a9b8) !important;
+}
+
+.transColor-text {
+  
+}
+
+#mainFooter {
+  padding-top: 0px;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]), 
+input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]), input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  box-shadow:0 0 0 0;
+}
